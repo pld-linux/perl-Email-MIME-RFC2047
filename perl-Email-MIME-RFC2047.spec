@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Email
 %define		pnam	MIME-RFC2047
 Summary:	Email::MIME::RFC2047 - Correct handling of non-ASCII MIME headers
